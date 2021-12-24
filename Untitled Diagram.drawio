@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T07:39:10.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="16.0.3" etag="NlD_rhvjm62vkBI-sPoe" type="github"><diagram id="Hjh6D85tHbpYwDYXje0Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-24T07:53:05.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="tphcmIht5HIaIQjEGRE6" version="16.0.3" type="github">
+  <diagram id="Hjh6D85tHbpYwDYXje0Y" name="Page-1">
+    <mxGraphModel dx="1038" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q2YF9KVWevL70MCQf0rg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q2YF9KVWevL70MCQf0rg-1" target="q2YF9KVWevL70MCQf0rg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;推/拉流&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="41" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-6" value="视频数据流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="q2YF9KVWevL70MCQf0rg-2" target="q2YF9KVWevL70MCQf0rg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q2YF9KVWevL70MCQf0rg-2" target="q2YF9KVWevL70MCQf0rg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;流媒体&lt;br&gt;转发&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="41" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-10" value="返回处理结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;dashed=1;" edge="1" parent="1" source="q2YF9KVWevL70MCQf0rg-3" target="q2YF9KVWevL70MCQf0rg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="81" />
+              <mxPoint x="570" y="341" />
+              <mxPoint x="290" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;应用&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="440" y="41" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q2YF9KVWevL70MCQf0rg-4" target="q2YF9KVWevL70MCQf0rg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-9" value="指令流，指定处理模型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="q2YF9KVWevL70MCQf0rg-8">
+          <mxGeometry x="-0.3118" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;管理平台&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="222" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2YF9KVWevL70MCQf0rg-11" value="每 GPU 服务器上一个应用实例，应用调度整机显卡。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="222" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
